@@ -1,9 +1,17 @@
+/* src/components/Stats/Stats.module.css */
 .stats {
-  background-color: #2c3e50;
-  color: white;
-  padding: 0.5rem 1.2rem;
-  border-radius: 40px;
-  font-weight: bold;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  background: linear-gradient(105deg, #1e293b, #0f172a);
+  color: #facc15;
+  padding: 0.5rem 1.5rem;
+  border-radius: 60px;
+  font-weight: 700;
+  font-size: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  backdrop-filter: blur(2px);
 }
-.stats strong { font-size: 1.2rem; margin-left: 0.3rem; }
+.stats strong {
+  font-size: 1.3rem;
+  color: #facc15;
+  background: none;
+  margin-left: 0.4rem;
+}
